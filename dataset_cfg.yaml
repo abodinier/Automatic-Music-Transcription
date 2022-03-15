@@ -1,0 +1,17 @@
+dataset_name: "medleydb_pitch"
+n_examples_per_track: 100
+val_proportion: 0.1
+
+sample_rate : 22050
+mono: True
+
+fmin: 32.7
+harmonics: [0.5, 1, 2, 3, 4, 5]
+
+n_bins: 216
+n_octaves: 6
+bins_per_octave: 10
+n_bins_per_semitone: 3
+
+hop_length: 512  # 23 ms hop
+n_time_frames: 50  # 1.16 seconds
